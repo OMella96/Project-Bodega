@@ -1,0 +1,203 @@
+body {
+    background-image: url(imagenes/fondo4.jpg);
+    background-size: cover;
+}
+
+.tab {
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#contenedor {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    height: 100%;
+    padding-left: 200px;
+}
+
+#central {
+    max-width: 320px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 250%;
+    color: #bbe1fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: #ca2743;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    box-sizing: border-box;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    background-color: #db7082;
+    margin-top: 10px;
+}
+
+#login button:hover {
+    background-color: #db7082;
+    color: #fabbc9;
+}
+
+.pie-form {
+    font-size: 90%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #db7082;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    color: #0f4c75;
+}
+
+.inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+}
+
+.inferior a {
+    display: block;
+    text-decoration: none;
+    color: #bbe1fa;
+    margin-bottom: 3px;
+}
+
+.inferior a:hover {
+    color: #ca2743;
+}
+
+#tabla {
+    margin: 100px auto;
+    width: 700px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+#tabla2 {
+    margin: 100px auto;
+    width: 800px;
+    margin-left: 1050px;
+    margin-top: 100px;
+    margin: 100px auto;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+}
+
+#tabla3 {
+    margin: 100px auto;
+    width: 800px;
+    margin-left: 100px;
+    margin: 100px auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+table {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 5px #0f362D;
+}
+
+th,
+td {
+    padding: 20px;
+    border: solid 1px #0f362D;
+}
+
+thead {
+    background-color: #ca2743;
+    border: solid 5px #0f362D;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #db7082
+}
+
+.card {
+    margin: 100px auto;
+    width: 240px;
+    float: right;
+    padding-right: 500px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #e78632;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .3) 20%, transparent 20%, transparent 40%, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, .3) 60%, transparent 60%, transparent 80%, rgba(255, 255, 255, 0.3) 80%);
+    border-radius: 10px;
+}
